@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Cronômetro - JS Puro</title>
+    <link href="_css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Cronômetro - JS Puro</h1>
+    </header>
+
+    <div class="container">
+      <audio id="sound" src="_audio/alarm.mp3" style="display: none"></audio>
+
+      <main>
+        <h2>Horas</h2>
+        <select name="horas" id="horas"></select>
+
+        <h2>Minutos</h2>
+        <select name="minutos" id="minutos"></select>
+
+        <h2>Segundos</h2>
+        <select name="segundos" id="segundos"></select>
+
+        <button id="comecar">Começar</button>
+
+        <div id="display">
+          <h1></h1>
+        </div>
+        <!--display-->
+      </main>
+
+    </div><!--container-->
+
+    <script src="_js/script.js"></script>
+  </body>
+</html>
