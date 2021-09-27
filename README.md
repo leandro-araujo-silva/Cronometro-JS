@@ -10,7 +10,7 @@
 
 ## Sobre o Projeto
 
-Projeto realizado com JS Puro, a fim de aprimorar os meus conhecimentos com o DOM.
+Projeto realizado com JS Puro, a fim de aprimorar os meus conhecimentos com o DOM. Ao zerar o cronômetro, um alarme é disparado.
 
 ### 🛠 Tecnologias
 
